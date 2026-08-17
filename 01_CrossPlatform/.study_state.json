@@ -1,0 +1,172 @@
+{
+  "cards": {
+    "Cross_Platform_Motivation.md": {
+      "history": [
+        {
+          "score": 68,
+          "ts": "2026-07-03T09:14:40+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 68,
+      "last_feedback": "Your answer demonstrates a genuine understanding of the topic: you correctly enumerate all four cross-platform approaches with accurate descriptions, which is a significant portion of the expected answer. To reach a higher mark, you must explicitly use the 'Write Once, Run Anywhere (WORA)' phrase, as it is a key concept professors expect verbatim. More critically, you must state that updating the user interface is identified as the single most energy-intensive activity in cross-platform frameworks \u2014 this is flagged as a specific exam focus point and its absence costs marks. Finally, strengthen your business case by mentioning time-to-market and the revenue/access loss of excluding a whole platform's user base; these are the economic drivers the question explicitly asks for.",
+      "avg_score": 68.0
+    },
+    "Hybrid_Approach.md": {
+      "history": [
+        {
+          "score": 67,
+          "ts": "2026-07-03T09:29:52+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 67,
+      "last_feedback": "Name WebKit explicitly when describing the rendering engine \u2014 professors test on this specific term. Always anchor an abstract approach with a real-world example like PhoneGap/Cordova, since it demonstrates applied understanding. Fix the contradiction on native look-and-feel: state upfront that it is a known weakness, not a strength, and then explain that extra platform-specific styling is required to mitigate it. Finally, add the Web View Control as a named component alongside the native container and the JavaScript Abstraction Layer to complete the three-part architecture description.",
+      "avg_score": 67.0
+    },
+    "Google_Play_Store.md": {
+      "history": [
+        {
+          "score": 74,
+          "ts": "2026-07-03T09:52:38+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 74,
+      "last_feedback": "The answer demonstrates a genuine understanding of the workflow and the permissive philosophy, which is the conceptual core. To reach the top tier, you must memorize specific technical values \u2014 the 512x512 icon and 1024x500 feature image dimensions are the kind of precise details professors test. Expand your Android Vitals description to include all three key metrics: ANR errors, crash rate, and battery drain. Finally, avoid absolute statements like 'the only factor' \u2014 on an exam, overstatements like this are penalized even when the underlying idea (fix speed matters) is correct. Replacing that sentence with a nuanced claim about how Android Vitals feed into store ranking would earn full credit.",
+      "avg_score": 74.0
+    },
+    "Native_vs_CrossPlatform.md": {
+      "history": [
+        {
+          "score": 65,
+          "ts": "2026-07-03T14:07:38+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 65,
+      "last_feedback": "You clearly understand the WORA philosophy, the software-overhead trade-off, and the use-case split between simple and complex apps \u2014 that is the backbone of a good answer. However, the Kotlin/iOS error is a serious factual mistake that will cost points in any exam: always pair Swift/Objective-C with iOS and Java/Kotlin with Android. To move from a 65 to a 90+, add the economic dimension more explicitly (team size, maintenance cost, time-to-market), name UI rendering as the single biggest energy bottleneck for cross-platform frameworks, and include at least one concrete contrasting example as the reference card suggests. Using precise terminology like 'Codebase Fragmentation' and 'Software Layer Overhead' also signals to the professor that you know the formal vocabulary.",
+      "avg_score": 65.0
+    },
+    "Raj_Tolety_Classification.md": {
+      "history": [
+        {
+          "score": 74,
+          "ts": "2026-07-03T14:30:24+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 74,
+      "last_feedback": "You clearly know the four-category taxonomy and can recall the right technical terms (WebKit, JavaScript Abstraction Layer, native container, interpreter). To improve: (1) Fix the key conceptual error \u2014 the whole classification answers fragmentation, not just cross-compilation \u2014 because a professor will penalize that misattribution. (2) Explicitly note that the Web approach is the *only* one barred from app stores, as this is a common exam question. (3) Include at least one concrete example (e.g., PhoneGap for Hybrid, Titanium for Interpreted) to demonstrate applied understanding, and briefly explain *why* cross-compiled UI is non-reusable across platforms rather than just stating it as a fact.",
+      "avg_score": 74.0
+    },
+    "Flutter.md": {
+      "history": [
+        {
+          "score": 74,
+          "ts": "2026-07-04T06:35:53+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 74,
+      "last_feedback": "Your answer shows a genuine understanding of Flutter's architecture and you cover the exam-critical points well (widget tree, Stateless vs Stateful, own rendering engine, JIT/AOT, trans-compiler). To reach the top band, you must explain *why* AOT matters: it compiles Dart directly to native machine code, which is what gives release builds native-level performance \u2014 do not treat it as just a deployment step. Also always include that Hot Reload preserves application state, as that is the precise phrasing professors expect. Finally, proofread your answers: recurring typos and the broken Platform Channels sentence undermine an otherwise competent response.",
+      "avg_score": 74.0
+    },
+    "Apple_App_Store.md": {
+      "history": [
+        {
+          "score": 72,
+          "ts": "2026-07-04T06:52:13+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 72,
+      "last_feedback": "Your answer demonstrates a clear understanding of the end-to-end flow and correctly uses most key terms, which is the foundation of a good response. To reach the top band, add specific constraints like the 100-character keyword limit and explicitly name Human Interface Guidelines and malware detection as review criteria \u2014 professors reward these details. Always use the precise technical vocabulary: 'bundled' not 'blended' for how certificates combine into a Provisioning Profile. Strengthen the Provisioning Profile definition by listing all three components it ties together: certificates, App ID, and developer signature.",
+      "avg_score": 72.0
+    },
+    "Mobile_Development_Fundamentals.md": {
+      "history": [
+        {
+          "score": 58,
+          "ts": "2026-07-04T07:07:55+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 58,
+      "last_feedback": "Your answer correctly identifies the three pillars (resources, fragmentation, user context) but treats each too shallowly. On fragmentation, you must distinguish two levels: the macro split between iOS and Android (different languages and APIs) AND the micro fragmentation within Android itself (screen sizes, manufacturers, sensors). You completely omit computation offloading, which the reference card presents as the clearest real-world application of these constraints \u2014 add the Siri example or a similar one. Also, avoid narrowing a general principle (battery drain affects all mobile devices) to a specific platform (iOS), as this introduces a factual error. Finally, include post-deployment monitoring (ANR errors) to show you understand the full development lifecycle.",
+      "avg_score": 58.0
+    },
+    "After_Publishing.md": {
+      "history": [
+        {
+          "score": 72,
+          "ts": "2026-07-04T07:22:36+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 72,
+      "last_feedback": "Your answer has a clear, correct structure and hits all the main topics, which is genuinely good work. To reach the top band, you need to be more precise about Android Vitals: the reference expects you to list all four tracked dimensions (stability, rendering, battery, loading), not just mention battery in passing. Also, never write that ongoing monitoring becomes less demanding over time \u2014 that contradicts the core message; instead, emphasize that it is a continuous, indefinite process. Finally, clean up incomplete sentences before submitting: the push-notification point was a missed opportunity to demonstrate knowledge of a re-engagement tool that was in your notes.",
+      "avg_score": 72.0
+    },
+    "Flutter_vs_React_Native.md": {
+      "history": [
+        {
+          "score": 82,
+          "ts": "2026-07-04T10:50:41+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 82,
+      "last_feedback": "Your answer demonstrates a solid command of the core material and correctly identifies all the major architectural distinctions. To reach full marks, add at least one real-world company example to ground the theory (the Alibaba/Flutter vs. Discord/React Native contrast is exactly what examiners look for). Also strengthen your conclusion with a brief structured summary \u2014 explicitly stating that React Native bridges to native OS components while Flutter draws every pixel itself is the single most-tested exam point. Finally, avoid introducing technical claims (e.g., 'Dart is C-like', 'JIT for hot reload') that are not in the lecture material, as they can undermine otherwise accurate explanations.",
+      "avg_score": 82.0
+    },
+    "React_Native.md": {
+      "history": [
+        {
+          "score": 78,
+          "ts": "2026-07-04T11:06:21+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 78,
+      "last_feedback": "The answer demonstrates solid understanding of the core architecture and flows well. The most impactful improvement is to explicitly name the 'JavaScript bridge' \u2014 the communication layer between the JS thread and native APIs \u2014 and to state that React Native is not a web view; these are the two points most likely to be targeted in an exam marking scheme. Additionally, correct the origin story: the primary driver was poor HTML-based performance, not market fragmentation. Adding a concrete app example (e.g., Discord sharing logic across platforms) would complete the answer and reinforce the cross-platform argument with evidence.",
+      "avg_score": 78.0
+    },
+    "Interpreted_vs_CrossCompiled.md": {
+      "history": [
+        {
+          "score": 73,
+          "ts": "2026-07-04T11:27:14+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 73,
+      "last_feedback": "Your answer demonstrates a genuine understanding of both execution models and the core performance/UI trade-off, which is the heart of this topic. To reach a higher band, you must use precise exam vocabulary: write 'Ahead-of-Time (AOT) compilation' when describing the cross-compiled build step, and name the target languages (C++, C#, Dart). Always anchor comparisons with concrete examples \u2014 Titanium vs. Flutter/MoSync is exactly what professors look for. Finally, avoid introducing external classification schemes (Raj and Tolety) without fully explaining how they map to the concepts in the question, as it can introduce inaccuracies or confuse the argument.",
+      "avg_score": 73.0
+    },
+    "Google_vs_Apple_Store.md": {
+      "history": [
+        {
+          "score": 78,
+          "ts": "2026-07-04T11:47:03+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 78,
+      "last_feedback": "Your answer demonstrates a solid grasp of the core philosophy difference (permissive vs. rigorous) and you correctly handle the Apple-specific technical requirements (Xcode/macOS, manual review, provisioning profiles, TestFlight). To score higher, always include the specific figures the professor considers exam-critical: Google's fee is exactly $25 (lifetime), not just 'once-only.' More importantly, revise your understanding of Android Vitals: it is not just a developer dashboard to voluntarily improve quality \u2014 Google uses it as an enforcement mechanism that can automatically delist your app if crash rates or battery drain exceed thresholds. Finally, mention the console names (Play Console, App Store Connect) as they are listed as key concepts in this topic and show precise knowledge of the ecosystem.",
+      "avg_score": 78.0
+    },
+    "El_Kassas_Classification.md": {
+      "history": [
+        {
+          "score": 78,
+          "ts": "2026-07-04T12:01:15+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 78,
+      "last_feedback": "Your answer clearly demonstrates you understand the taxonomy at a conceptual level and you used both Flutter and Stadia effectively. To reach the top grade band, you must explain Component-Based (not just list it) using the standardized-interface idea. Practise using precise terminology from the card \u2014 'MB-UID/MDD', 'global view', 'bytecode' \u2014 since professors often award dedicated marks for exact terms. Finally, always include the performance-vs-update-speed trade-off when comparing Compilation and Interpretation, as the reference card flags this as a direct exam focus. Fix the numerous spelling errors before the actual exam, as they can reduce perceived confidence in your knowledge.",
+      "avg_score": 78.0
+    }
+  }
+}

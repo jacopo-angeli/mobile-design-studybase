@@ -1,0 +1,28 @@
+{
+  "cards": {
+    "App_Icon.md": {
+      "history": [
+        {
+          "score": 65,
+          "ts": "2026-07-04T16:58:51+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 65,
+      "last_feedback": "Strengthen the emotional-design section: explain *which* emotional cues (trust, curiosity, familiarity) the icon should trigger and why, since that is a focal point of the course material. Fix the alpha-channel claim by clarifying it means transparency is technically possible, not mandated. Replace 'user preservation' with 'user retention' and be precise about what store rejection (not hiding) means for non-compliant assets. Finally, add a line about typographic or language elements within the icon, as the source lists these explicitly under 'visual lexicon'.",
+      "avg_score": 65.0
+    },
+    "Gestures.md": {
+      "history": [
+        {
+          "score": 68,
+          "ts": "2026-07-05T14:47:48+00:00"
+        }
+      ],
+      "reviews": 1,
+      "last_score": 68,
+      "last_feedback": "Your answer shows you understand the motivation behind gesture design and can give concrete examples, which is a strong foundation. To improve, be precise when applying design vocabulary: skeuomorphism is a visual concept, not a behavioral one \u2014 use 'affordances' when discussing how appearance implies interaction. Make sure to address the web-vs-native distinction, as the course source explicitly flags it as a limitation of web apps. Finally, expand on gesture-teaching strategies beyond just-in-time education, since the course dedicates a section to this topic and likely expects more coverage.",
+      "avg_score": 68.0
+    }
+  }
+}
